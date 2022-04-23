@@ -41,7 +41,7 @@ public class TestContactController {
 		
 		final ResponseEntity<?> result = contactController.saveContact(contactInsertDtoMock);
 		
-		Assertions.assertEquals(HttpStatus.OK, result.getStatusCode());
+		Assertions.assertEquals(HttpStatus.CREATED, result.getStatusCode());
 		Assertions.assertEquals(contactInsertDtoMock, result.getBody());
 		
 	}
