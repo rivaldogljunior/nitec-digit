@@ -37,7 +37,7 @@
       <groupId>mysql</groupId>  
       <artifactId>mysql-connector-java</artifactId>  
       <scope>runtime</scope> 
-    </dependency>      
+    </dependency>  
     <dependency> 
       <groupId>org.projectlombok</groupId>  
       <artifactId>lombok</artifactId>  
@@ -85,10 +85,10 @@
         <configuration> 
           <schemaVersion>v2</schemaVersion>  
           <subscriptionId>bc94fcf5-d3df-42e6-be40-745264cc02f2</subscriptionId>  
-          <resourceGroup>rg_nitec_digit</resourceGroup>  
+          <resourceGroup>rg_app</resourceGroup>  
           <appName>nitech-digital</appName>  
           <pricingTier>B1</pricingTier>  
-          <region>eastus2</region>  
+          <region>centralus</region>  
           <runtime> 
             <os>Linux</os>  
             <javaVersion>Java 11</javaVersion>  
