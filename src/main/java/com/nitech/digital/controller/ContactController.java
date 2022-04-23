@@ -4,6 +4,7 @@ package com.nitech.digital.controller;
 import com.nitech.digital.dto.ContactInsertDto;
 import com.nitech.digital.service.ContactService;	
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -20,7 +21,7 @@ public class ContactController {
 
     @PostMapping("/contact")
     public ResponseEntity<?> saveContact(@RequestBody ContactInsertDto contactInsertDto){
-        return ResponseEntity.ok(this.contactService.insertContact(contactInsertDto));
+    	return ResponseEntity.status(HttpStatus.CREATED).body(this.contactService.insertContact(contactInsertDto));
     }
     
     @GetMapping("/contact")
