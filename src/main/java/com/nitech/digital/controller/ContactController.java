@@ -2,7 +2,7 @@ package com.nitech.digital.controller;
 
 
 import com.nitech.digital.dto.ContactInsertDto;
-import com.nitech.digital.service.ContactService;
+import com.nitech.digital.service.ContactService;	
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

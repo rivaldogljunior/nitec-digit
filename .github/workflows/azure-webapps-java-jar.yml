@@ -41,7 +41,7 @@ jobs:
         uses: actions/setup-java@v3.0.0
         with:
           java-version: ${{ env.JAVA_VERSION }}
-          distribution: ${{ env.DISTRIBUTION }}
+          distribution: zulu
           cache: 'maven'
 
       - name: Build with Maven
