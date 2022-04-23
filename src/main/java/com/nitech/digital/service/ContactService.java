@@ -7,9 +7,7 @@ import com.nitech.digital.exception.EmailNotValidException;
 import com.nitech.digital.repository.ContactRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.Date;
-
 import org.modelmapper.ModelMapper;
 
 @Service
