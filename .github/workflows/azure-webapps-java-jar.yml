@@ -41,11 +41,12 @@ jobs:
         uses: actions/setup-java@v3.0.0
         with:
           java-version: ${{ env.JAVA_VERSION }}
-          distribution: zulu
+          distribution: ${{ env.DISTRIBUTION }}
           cache: 'maven'
 
       - name: Build with Maven
-        run: mvn clean install
+        #        run: mvn clean install
+        run: package azure-webapp:deploy
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
