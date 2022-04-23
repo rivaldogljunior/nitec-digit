@@ -24,10 +24,10 @@ public class ContactController {
     	return ResponseEntity.status(HttpStatus.CREATED).body(this.contactService.insertContact(contactInsertDto));
     }
     
-    @GetMapping("/contact")
+    /*@GetMapping("/contact")
     public ResponseEntity<?> getContact(){
         return ResponseEntity.ok("**Teste Realizado com sucesso!**");
-    }
+    }*/
 }
 
 
