@@ -1,0 +1,10 @@
+com/nitech/digital/exception/AppExceptionHandler.class
+com/nitech/digital/domain/Contact.class
+com/nitech/digital/ServletInitializer.class
+com/nitech/digital/exception/EmailNotValidException.class
+com/nitech/digital/DigitalApplication.class
+com/nitech/digital/service/ContactService.class
+com/nitech/digital/dto/ContactInsertDto.class
+com/nitech/digital/repository/ContactRepository.class
+com/nitech/digital/controller/ContactController.class
+com/nitech/digital/email/EmailValidation.class

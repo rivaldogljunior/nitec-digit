@@ -1,0 +1,10 @@
+/home/rivaldo.glima/eclipse-workspace/nitec-digit/src/main/java/com/nitech/digital/DigitalApplication.java
+/home/rivaldo.glima/eclipse-workspace/nitec-digit/src/main/java/com/nitech/digital/service/ContactService.java
+/home/rivaldo.glima/eclipse-workspace/nitec-digit/src/main/java/com/nitech/digital/exception/AppExceptionHandler.java
+/home/rivaldo.glima/eclipse-workspace/nitec-digit/src/main/java/com/nitech/digital/exception/EmailNotValidException.java
+/home/rivaldo.glima/eclipse-workspace/nitec-digit/src/main/java/com/nitech/digital/controller/ContactController.java
+/home/rivaldo.glima/eclipse-workspace/nitec-digit/src/main/java/com/nitech/digital/ServletInitializer.java
+/home/rivaldo.glima/eclipse-workspace/nitec-digit/src/main/java/com/nitech/digital/email/EmailValidation.java
+/home/rivaldo.glima/eclipse-workspace/nitec-digit/src/main/java/com/nitech/digital/domain/Contact.java
+/home/rivaldo.glima/eclipse-workspace/nitec-digit/src/main/java/com/nitech/digital/repository/ContactRepository.java
+/home/rivaldo.glima/eclipse-workspace/nitec-digit/src/main/java/com/nitech/digital/dto/ContactInsertDto.java
