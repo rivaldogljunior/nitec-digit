@@ -77,35 +77,7 @@
             </exclude> 
           </excludes> 
         </configuration> 
-      </plugin>  
-      <plugin> 
-        <groupId>com.microsoft.azure</groupId>  
-        <artifactId>azure-webapp-maven-plugin</artifactId>  
-        <version>2.5.0</version>  
-        <configuration> 
-          <schemaVersion>v2</schemaVersion>  
-          <subscriptionId>bc94fcf5-d3df-42e6-be40-745264cc02f2</subscriptionId>  
-          <resourceGroup>rg_app</resourceGroup>  
-          <appName>nitech-digital</appName>  
-          <pricingTier>B1</pricingTier>  
-          <region>centralus</region>  
-          <runtime> 
-            <os>Linux</os>  
-            <javaVersion>Java 11</javaVersion>  
-            <webContainer>Tomcat 8.5</webContainer> 
-          </runtime>  
-          <deployment> 
-            <resources> 
-              <resource> 
-                <directory>${project.basedir}/target</directory>  
-                <includes> 
-                  <include>*.war</include> 
-                </includes> 
-              </resource> 
-            </resources> 
-          </deployment> 
-        </configuration> 
-      </plugin> 
+      </plugin>       
     </plugins> 
   </build> 
 </project>
