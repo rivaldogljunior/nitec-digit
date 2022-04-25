@@ -13,18 +13,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value="/api")
+@RequestMapping(value="")
 public class ContactController {
 
     @Autowired
     ContactService contactService;
 
-    @PostMapping("/contact")
+    @PostMapping("/api/contact")
     public ResponseEntity<?> saveContact(@RequestBody ContactInsertDto contactInsertDto){
     	return ResponseEntity.status(HttpStatus.CREATED).body(this.contactService.insertContact(contactInsertDto));
     }
     
-    @GetMapping("/contact")
+    @GetMapping("")
     public ResponseEntity<?> getContact(){
         return ResponseEntity.ok("Teste Realizado com sucesso!");
     }
