@@ -6,7 +6,10 @@ name: Build and deploy JAR app to Azure Web App - nitech-back
 on:
   push:
     branches:
-      - main
+      - main 
+  pull_request:
+    branches:
+      - main 
   workflow_dispatch:
 
 jobs:
