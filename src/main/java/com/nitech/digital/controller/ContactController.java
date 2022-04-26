@@ -23,6 +23,7 @@ public class ContactController {
     public ResponseEntity<?> saveContact(@RequestBody ContactInsertDto contactInsertDto){
     	return ResponseEntity.status(HttpStatus.CREATED).body(this.contactService.insertContact(contactInsertDto));
     }
+
     
     @GetMapping("")
     public ResponseEntity<?> getContact(){
