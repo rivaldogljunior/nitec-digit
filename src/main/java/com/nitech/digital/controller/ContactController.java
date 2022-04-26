@@ -26,7 +26,7 @@ public class ContactController {
     
     @GetMapping("")
     public ResponseEntity<?> getContact(){
-        return ResponseEntity.ok("Teste Realizado com sucesso!");
+        return ResponseEntity.ok("O teste foi concluido com exito!");
     }
 }
 
